@@ -1,0 +1,79 @@
+##
+## prig configuration file
+##  generated on mar. déc. 26 16:03:14 EST 2017
+##
+
+##
+## PRIG CONF VARS
+##
+
+# 
+conf_generator_github_branch='github-generator'
+
+# 
+conf_generator_github_url='https://github.com/tim42/prig.git'
+
+# 
+conf_generator_grab_branch='grab-generator'
+
+# 
+conf_generator_grab_url='https://github.com/tim42/prig.git'
+
+# 
+conf_generator_scaffold_branch='prig'
+
+# 
+conf_generator_scaffold_url='https://github.com/CruizeMissile/scaffold.git'
+
+# 
+conf_github_project_list=' tim42/tools CruizeMissile/cml'
+
+# 
+conf_github_third_party='third_party'
+
+# List of space-separated generator names (you will need to have a conf_generator_{name}_url and a conf_generator_{name}_branch variable) that will serve as project generators. (order is important).
+conf_project_generator='grab github scaffold'
+
+# The project name
+conf_project_name='rukh'
+
+# 
+conf_scaffold_third_party='third_party'
+
+
+##
+## PRIG GLOBAL OPTIONS
+##
+
+# 
+gbl_opt_clear_logs='true'
+
+# Force the usage of curl when both wget and curl are available
+gbl_opt_force_curl='false'
+
+# The log file where output of commands are written
+gbl_opt_log='./prig.log'
+
+# The branch of the git repository of prig.
+gbl_opt_prig_branch='master'
+
+# Indicate the folder that hold the external prig commands
+gbl_opt_prig_command_dir='./scripts/prig/'
+
+# The git repository of prig. Prig and its commands will be checked out from there.
+gbl_opt_prig_repo='https://github.com/tim42/prig.git'
+
+# Clear the log file when starting prig
+gbl_opt_skip_unknown='false'
+
+
+##
+## PRIG COMMAND OPTIONS
+##
+
+# The git template directory, as specified by git init --template=... .
+cmd_opt_init_git_template=''
+
+# Create a git commit after having successfully updated prig.
+cmd_opt_update_commit='true'
+

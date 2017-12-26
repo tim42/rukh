@@ -1,0 +1,4 @@
+[submodule "./scripts/prig/#master"]
+	path = scripts/prig
+	url = https://github.com/tim42/prig.git
+	branch = master
