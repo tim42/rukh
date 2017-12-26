@@ -30,3 +30,7 @@
 	path = third_party/CruizeMissile_cml
 	url = https://github.com//CruizeMissile/cml
 	branch = master
+[submodule "./scripts/prig//../generators/scaffold#prig"]
+	path = scripts/generators/scaffold
+	url = https://github.com/CruizeMissile/scaffold.git
+	branch = prig
