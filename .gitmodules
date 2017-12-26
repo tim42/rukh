@@ -2,3 +2,27 @@
 	path = scripts/prig
 	url = https://github.com/tim42/prig.git
 	branch = master
+[submodule "./scripts/prig//../generators/grab#grab-generator"]
+	path = scripts/generators/grab
+	url = https://github.com/tim42/prig.git
+	branch = grab-generator
+[submodule "./scripts/prig//../generators/github#github-generator"]
+	path = scripts/generators/github
+	url = https://github.com/tim42/prig.git
+	branch = github-generator
+[submodule "./scripts/prig//../generators/scaffold#prig"]
+	path = scripts/generators/scaffold
+	url = https://github.com/CruizeMissile/scaffold.git
+	branch = prig
+[submodule "third_party/tools#"]
+	path = third_party/tools
+	url = https://github.com//tim42/tools
+	branch = master
+[submodule "third_party/cml#"]
+	path = third_party/cml
+	url = https://github.com//CruizeMissile/cml
+	branch = master
+[submodule "third_party/scaffold#"]
+	path = third_party/scaffold
+	url = https://github.com/CruizeMissile/scaffold.git
+	branch = master
